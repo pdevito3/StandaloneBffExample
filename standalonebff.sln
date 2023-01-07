@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakPulumi", "KeycloakP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManagementApp", "RecipeManagementApp\RecipeManagementApp.csproj", "{F9F62FE7-934A-45BF-A254-C5D21BC16D96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandaloneBff", "StandaloneBff\StandaloneBff.csproj", "{B4B1FB41-1FDF-4000-B509-CF3EB32B6C52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +68,10 @@ Global
 		{F9F62FE7-934A-45BF-A254-C5D21BC16D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9F62FE7-934A-45BF-A254-C5D21BC16D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9F62FE7-934A-45BF-A254-C5D21BC16D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B1FB41-1FDF-4000-B509-CF3EB32B6C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B1FB41-1FDF-4000-B509-CF3EB32B6C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B1FB41-1FDF-4000-B509-CF3EB32B6C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B1FB41-1FDF-4000-B509-CF3EB32B6C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1978E01B-EE6E-4692-94B5-9916651F4A63} = {30C8D416-60E4-4203-BA55-D3CEBE19AE55}
