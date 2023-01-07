@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RecipeManagement</name>
+    </assembly>
+    <members>
+        <member name="M:RecipeManagement.Controllers.v1.AuthorsController.GetAuthors(RecipeManagement.Domain.Authors.Dtos.AuthorParametersDto)">
+            <summary>
+            Gets a list of all Authors.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.AuthorsController.GetAuthor(System.Guid)">
+            <summary>
+            Gets a single Author by ID.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.AuthorsController.AddAuthor(RecipeManagement.Domain.Authors.Dtos.AuthorForCreationDto)">
+            <summary>
+            Creates a new Author record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.AuthorsController.UpdateAuthor(System.Guid,RecipeManagement.Domain.Authors.Dtos.AuthorForUpdateDto)">
+            <summary>
+            Updates an entire existing Author.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.AuthorsController.DeleteAuthor(System.Guid)">
+            <summary>
+            Deletes an existing Author record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.IngredientsController.GetIngredients(RecipeManagement.Domain.Ingredients.Dtos.IngredientParametersDto)">
+            <summary>
+            Gets a list of all Ingredients.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.IngredientsController.GetIngredient(System.Guid)">
+            <summary>
+            Gets a single Ingredient by ID.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.IngredientsController.AddIngredient(RecipeManagement.Domain.Ingredients.Dtos.IngredientForCreationDto)">
+            <summary>
+            Creates a new Ingredient record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.IngredientsController.UpdateIngredient(System.Guid,RecipeManagement.Domain.Ingredients.Dtos.IngredientForUpdateDto)">
+            <summary>
+            Updates an entire existing Ingredient.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.IngredientsController.DeleteIngredient(System.Guid)">
+            <summary>
+            Deletes an existing Ingredient record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.IngredientsController.AddIngredient(System.Collections.Generic.IEnumerable{RecipeManagement.Domain.Ingredients.Dtos.IngredientForCreationDto},System.Guid)">
+            <summary>
+            Creates one or more Ingredient records.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.PermissionsController.GetPermissions">
+            <summary>
+            Gets a list of all available permissions.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.PermissionsController.GetAssignedPermissions">
+            <summary>
+            Gets a list of the current user's assigned permissions.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RecipesController.GetRecipes(RecipeManagement.Domain.Recipes.Dtos.RecipeParametersDto)">
+            <summary>
+            Gets a list of all Recipes.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RecipesController.GetRecipe(System.Guid)">
+            <summary>
+            Gets a single Recipe by ID.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RecipesController.AddRecipe(RecipeManagement.Domain.Recipes.Dtos.RecipeForCreationDto)">
+            <summary>
+            Creates a new Recipe record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RecipesController.UpdateRecipe(System.Guid,RecipeManagement.Domain.Recipes.Dtos.RecipeForUpdateDto)">
+            <summary>
+            Updates an entire existing Recipe.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RecipesController.DeleteRecipe(System.Guid)">
+            <summary>
+            Deletes an existing Recipe record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RolePermissionsController.GetRolePermissions(RecipeManagement.Domain.RolePermissions.Dtos.RolePermissionParametersDto)">
+            <summary>
+            Gets a list of all RolePermissions.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RolePermissionsController.GetRolePermission(System.Guid)">
+            <summary>
+            Gets a single RolePermission by ID.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RolePermissionsController.AddRolePermission(RecipeManagement.Domain.RolePermissions.Dtos.RolePermissionForCreationDto)">
+            <summary>
+            Creates a new RolePermission record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RolePermissionsController.UpdateRolePermission(System.Guid,RecipeManagement.Domain.RolePermissions.Dtos.RolePermissionForUpdateDto)">
+            <summary>
+            Updates an entire existing RolePermission.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RolePermissionsController.DeleteRolePermission(System.Guid)">
+            <summary>
+            Deletes an existing RolePermission record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.RolesController.GetRoles">
+            <summary>
+            Gets a list of all available roles.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.UsersController.AddRole(System.Guid,System.String)">
+            <summary>
+            Adds a new role to a user.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.UsersController.RemoveRole(System.Guid,System.String)">
+            <summary>
+            Removes a role from a User
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.UsersController.GetUsers(RecipeManagement.Domain.Users.Dtos.UserParametersDto)">
+            <summary>
+            Gets a list of all Users.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.UsersController.GetUser(System.Guid)">
+            <summary>
+            Gets a single User by ID.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.UsersController.AddUser(RecipeManagement.Domain.Users.Dtos.UserForCreationDto)">
+            <summary>
+            Creates a new User record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.UsersController.UpdateUser(System.Guid,RecipeManagement.Domain.Users.Dtos.UserForUpdateDto)">
+            <summary>
+            Updates an entire existing User.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Controllers.v1.UsersController.DeleteUser(System.Guid)">
+            <summary>
+            Deletes an existing User record.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Databases.EntityConfigurations.AuthorConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{RecipeManagement.Domain.Authors.Author})">
+            <summary>
+            The database configuration for Authors. 
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Databases.EntityConfigurations.IngredientConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{RecipeManagement.Domain.Ingredients.Ingredient})">
+            <summary>
+            The database configuration for Ingredients. 
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Databases.EntityConfigurations.RecipeConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{RecipeManagement.Domain.Recipes.Recipe})">
+            <summary>
+            The database configuration for Recipes. 
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Databases.EntityConfigurations.RolePermissionConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{RecipeManagement.Domain.RolePermissions.RolePermission})">
+            <summary>
+            The database configuration for RolePermissions. 
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Databases.EntityConfigurations.UserConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{RecipeManagement.Domain.Users.User})">
+            <summary>
+            The database configuration for Users. 
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Databases.EntityConfigurations.UserRoleConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{RecipeManagement.Domain.Users.UserRole})">
+            <summary>
+            The database configuration for UserRoles. 
+            </summary>
+        </member>
+        <member name="P:RecipeManagement.Domain.Addresses.Address.Line1">
+            <summary>
+            Address line 1 (e.g., street, PO Box, or company name).
+            </summary>
+        </member>
+        <member name="P:RecipeManagement.Domain.Addresses.Address.Line2">
+            <summary>
+            Address line 2 (e.g., apartment, suite, unit, or building).
+            </summary>
+        </member>
+        <member name="P:RecipeManagement.Domain.Addresses.Address.City">
+            <summary>
+            City, district, suburb, town, or village.
+            </summary>
+        </member>
+        <member name="P:RecipeManagement.Domain.Addresses.Address.State">
+            <summary>
+            State, county, province, or region.
+            </summary>
+        </member>
+        <member name="P:RecipeManagement.Domain.Addresses.Address.PostalCode">
+            <summary>
+            ZIP or postal code.
+            </summary>
+        </member>
+        <member name="P:RecipeManagement.Domain.Addresses.Address.Country">
+            <summary>
+            Two-letter country code <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">(ISO 3166-1 alpha-2)</a>.
+            </summary>
+        </member>
+        <member name="M:RecipeManagement.Extensions.Services.WebAppServiceConfiguration.AddBoundaryServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly[])">
+            <summary>
+            Registers all services in the assembly of the given interface.
+            </summary>
+        </member>
+    </members>
+</doc>
