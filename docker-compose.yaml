@@ -70,6 +70,11 @@ services:
       - "56648:14269"
       - "56649:9411"
 
+  nginx:
+    image: nginx:latest
+    network_mode: host
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
         
 volumes:
   # compose volumes marker - do not delete

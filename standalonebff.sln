@@ -23,8 +23,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManagement.UnitTests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakPulumi", "KeycloakPulumi\KeycloakPulumi.csproj", "{FECBCFA0-FEB6-4630-A90A-BCA19084B219}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManagementApp", "RecipeManagementApp\RecipeManagementApp.csproj", "{F9F62FE7-934A-45BF-A254-C5D21BC16D96}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandaloneBff", "StandaloneBff\StandaloneBff.csproj", "{B4B1FB41-1FDF-4000-B509-CF3EB32B6C52}"
 EndProject
 Global
@@ -64,10 +62,6 @@ Global
 		{FECBCFA0-FEB6-4630-A90A-BCA19084B219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FECBCFA0-FEB6-4630-A90A-BCA19084B219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FECBCFA0-FEB6-4630-A90A-BCA19084B219}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9F62FE7-934A-45BF-A254-C5D21BC16D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9F62FE7-934A-45BF-A254-C5D21BC16D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9F62FE7-934A-45BF-A254-C5D21BC16D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9F62FE7-934A-45BF-A254-C5D21BC16D96}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B4B1FB41-1FDF-4000-B509-CF3EB32B6C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B4B1FB41-1FDF-4000-B509-CF3EB32B6C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4B1FB41-1FDF-4000-B509-CF3EB32B6C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
